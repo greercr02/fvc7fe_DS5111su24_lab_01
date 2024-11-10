@@ -14,3 +14,27 @@ get_texts:
 	wget https://www.gutenberg.org/cache/epub/10947/pg10947.txt -P downloads
 	wget https://www.gutenberg.org/cache/epub/1063/pg1063.txt -P downloads        
 
+# Count lines in The Raven
+raven_line_count:
+	wc -l downloads/pg17192.txt
+
+# Count words in The Raven
+raven_word_count:
+	wc -w downloads/pg17192.txt
+
+# Count instances of "raven" in The Raven
+raven_counts:
+	# Count lines with "raven" (lowercase)
+	grep -c "raven" downloads/pg17192.txt
+	# Count lines with "Raven" (title case)
+	grep -c "Raven" downloads/pg17192.txt
+	# Count lines with "raven" (case-insensitive)
+	grep -i -c "raven" downloads/pg17192.txt
+
+# Count total lines in all downloaded files
+total_lines:
+	wc -l downloads/*.txt
+
+# Count total words in all downloaded files
+total_words:
+	wc -w downloads/*.txt
