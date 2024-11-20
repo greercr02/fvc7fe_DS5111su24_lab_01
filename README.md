@@ -1,4 +1,4 @@
-# DS5111 Lab 4: Testing Word Processors
+# DS5111 Lab 1: Testing Word Processors
 This project is part of the DS5111 Data Engineering course and focuses on testing Python functions for text processing. The lab includes three main functions:
 - `clean_text`: Cleans text by converting it to lowercase and removing punctuation.
 - `tokenize`: Splits text into individual words.
