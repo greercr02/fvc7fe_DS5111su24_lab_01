@@ -41,4 +41,12 @@ This repository contains code and resources developed for the DS5111 Data Engine
 - **Unit Testing**: Comprehensive tests using Pytest to validate functionality.
 - **Multilingual Support**: Includes tests for accented characters in non-English text.
 
+## Project Gutenberg Files
 
+The project uses the following files from Project Gutenberg:
+
+1. **The Raven** (`pg17192.txt`)
+2. **Fall of the House of Usher** (`pg932.txt`)
+3. **Cask of Amontillado** (`pg1063.txt`)
+4. **The Poems** (`pg10031.txt`)
+5. **Le Corbeau (French)** (`pg14082.txt`)
