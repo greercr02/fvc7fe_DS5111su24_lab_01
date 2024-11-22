@@ -5,7 +5,8 @@ This repository contains code and resources developed for the DS5111 Data Engine
 1. Automating file downloads and basic text processing (Week 2)
 2. Implementing core functions for text processing (Week 3)
 3. Writing unit tests and refining functionality (Week 4)
-
+4. Installable Package (Week 6) -
+5. Refactoring and linting (Week 8) 
 ---
 
 ## Lab Structure and Objectives
