@@ -1,6 +1,6 @@
 # DS5111 Lab: Text Processing with Python
 
-This repository contains code and resources developed for the DS5111 Data Engineering course labs. The labs focus on building, automating, and testing Python-based text processing utilities. The three main labs include:
+This repository contains code and resources developed for the DS5111 Data Engineering course labs. The labs focus on building, automating, and testing Python-based text processing utilities. The five main labs include:
 
 1. Automating file downloads and basic text processing (Week 2)
 2. Implementing core functions for text processing (Week 3)
